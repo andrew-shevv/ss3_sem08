@@ -30,7 +30,6 @@ void PrintArray2D(int[,] array2D)
             {
                 Console.Write("  ");
             }
-            else if (array2D[i, j] >= 10) { Console.Write($"{array2D[i, j]}"); }
             else Console.Write($"{array2D[i, j]} ");
         }
         Console.WriteLine();
